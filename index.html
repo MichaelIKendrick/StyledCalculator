@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>JSCalculator</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <!--the start of the calc body-->>
+    <div class="calcbody"> 
+          <input id="display" readonly>
+          <div id="keys"> <!-- all the keys are arranged in this order to mimic a numberpad for user ease-->
+          <button onclick="calcDraw('7')">7</button>
+          <button onclick="calcDraw('8')">8</button>
+          <button onclick="calcDraw('9')">9</button>
+          <button onclick="calcDraw('/')">/</button>
+          <button onclick="calcDraw('4')">4</button>
+          <button onclick="calcDraw('5')">5</button>
+          <button onclick="calcDraw('6')">6</button>
+          <button onclick="calcDraw('*')">*</button>
+          <button onclick="calcDraw('1')">1</button>
+          <button onclick="calcDraw('2')">2</button>
+          <button onclick="calcDraw('3')">3</button>
+          <button onclick="calcDraw('+')">+</button>
+          <button onclick="clearDisp()">AC</button>
+          <button onclick="calcDraw('0')">0</button>
+          <button onclick="calcDraw('.')">.</button>
+          <button onclick="solveExp('=')">=</button>
+        </div>
+        <script src="../index.js"></script>
+</body>
+</html>
